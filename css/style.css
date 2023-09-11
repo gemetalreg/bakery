@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('Roboto-Regular.eot');
+    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Regular.woff') format('woff'),
+    url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('Roboto-Bold.eot');
+    src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.woff') format('woff'),
+    url('Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher Regular';
+    src: url('Philosopher.eot');
+    src: url('Philosopher.eot?#iefix') format('embedded-opentype'),
+    url('Philosopher.woff') format('woff'),
+    url('Philosopher.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -19,7 +55,7 @@ nav {
     list-style-type: none;
     text-align: center;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Regular', sans-serif;
 
 }
 
@@ -78,14 +114,14 @@ nav {
 
 .section-about__title {
     font-size: 36px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Philosopher Regular', sans-serif;
     margin: 0 0 9px 0;
 }
 
 .section-about__text {
     font-size: 12px;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Regular', sans-serif;
 }
 
 .section-description {
@@ -107,7 +143,7 @@ nav {
 
 .section-description__title {
     font-size: 96px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Philosopher Regular', sans-serif;
     margin: 0;
     text-align: center;
 }
@@ -118,7 +154,7 @@ nav {
 
 .section-description__text {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Regular', sans-serif;
     margin: 0 auto;
     text-align: center;
     width: 1000px;
@@ -133,7 +169,7 @@ nav {
     margin-bottom: 20px;
     text-align: center;
     font-size: 36px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Philosopher Regular', sans-serif;
 }
 
 iframe {
